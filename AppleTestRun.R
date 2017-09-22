@@ -71,3 +71,6 @@ aaplTest = transform(aaplTest, actualReturn = t1 * aaplTest$todayReturn)
 
 aaplTest = aaplTest[aaplTest$actualReturn > 0  ,]
 
+
+aaplTest = transform(aaplTest, actualReturn = t1 * aaplTest$todayReturn)
+som<- ggplot(transform)
